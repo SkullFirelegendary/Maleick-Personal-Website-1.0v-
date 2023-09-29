@@ -200,6 +200,8 @@ button[id="Read_more-btn"]:hover{
     text-shadow: 1px 1px #4a2f96;
 }   
 
-/* @media screen and (max-width:767px) {
-    
-} */
+@media screen and (max-width:767px) {
+    .Maleick img{
+    width: 200px;
+    }
+}
