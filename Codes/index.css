@@ -1,0 +1,205 @@
+*{
+    color: aliceblue;
+}
+body{
+    background-color: #3b1e89;
+}
+
+table, th , td{
+    width: 100%;
+    border: 1px none black;
+    border-collapse: collapse;
+}
+/*Scroll Bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #0CAFFF; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: greenyellow; 
+  }
+
+legend{
+    text-align: center;
+    font-size: 5vh;
+}
+
+.Maleick{
+    width: 20%;
+    height: 100%;
+}
+
+.Maleick img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.menu_bar, .submenu_bar{
+    width: 100%;
+    height: 3.2%;
+    padding: 0.7% 0;
+}
+.menu_bar .Name{
+    width: 33%;
+}
+
+.menu_bar .menu_btn{
+    text-align: right;
+}
+.menu_bar{
+    background-color: royalblue;
+    height: 50px;
+    text-align: left;
+}
+
+.menu_bar li{
+    list-style: none;
+}
+
+.text li{
+    list-style-type: square;
+}
+
+.text ul{
+    list-style-type: square;
+}
+.text ol li{
+    list-style-type: upper-roman;
+}
+.submenu_bar{
+    background-color: #4a2f96;
+    height: 20px;
+}
+
+.menu_btn button{
+    font-size: 100%;
+    background-color: lime;
+    color: black;
+    border-color: black;
+    border-width: 3px;
+    text-align: center;
+}
+
+.menu_btn button:hover{
+    background-color: #321583;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.interests{
+    text-align: center;
+}
+
+.interests button{
+    background-color: #231b3b;
+    border-radius: 6px;
+    width: 50%;
+    font-size: 25px;
+}
+
+.interests button:hover{
+    background-color: aliceblue;
+    color: greenyellow;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    font-size: 30px;
+}
+
+footer{
+    text-align: center;
+    /* font-size: 28px; */
+    background:rgb(0, 0, 0); 
+    font-size: 150%; 
+    padding: 0 80px;
+}
+
+/* About Webpage */
+h2{
+    font-size: 5vh;
+    text-align: left;
+}
+
+.text{
+    font-size: 3vh;
+}
+
+.header{
+    font-size: 3vh;
+}
+
+button[id="Read_more-btn"]{
+    color: blue;
+    background-color: rgb(0, 0, 0, 0.8);
+    border-width: 5px;
+    border-color: white ;
+}
+
+button[id="Read_more-btn"]:hover{
+    color: whitesmoke;
+    background-image: linear-gradient(to right, blue, rgb(190, 180, 160));
+    border-color: black;
+    cursor: pointer;
+}
+
+/*Contact Webpage*/
+.contact{
+    text-align: center;
+    width: 20%;
+}
+
+/*Personal Webpage*/
+[id="Motto"]{
+    background-color: #231b3b;
+    
+} 
+
+[id="Motto"] h2{
+    text-align: center;
+}
+.personality_result img{
+    width: 100%;
+}
+
+/*Story Board Webpage*/
+.separator{
+    background-color: #231b3b;  
+}
+/*Reference Page*/
+.reference{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vh;
+    line-height: 2;
+}
+.reference li{
+    list-style: none;
+    
+}
+.reference ul a{
+    text-decoration: underline black;
+    color: silver;
+    text-shadow: 1px 1px #4a2f96;
+}   
+
+/* @media screen and (max-width:767px) {
+    
+} */
