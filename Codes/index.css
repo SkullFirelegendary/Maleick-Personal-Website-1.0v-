@@ -207,7 +207,7 @@ button[id="Read_more-btn"]:hover{
     .interests button{
     width: 60%;
     }
-    h2[id="Brief"]{
+    [id="Brief"] h2{
         text-align: center;
     }
 }
