@@ -209,7 +209,7 @@ button[id="Read_more-btn"]:hover{
     [id="Brief"] h2{
         text-align: center;
     }
-    h2, .text, .header{
+    h2, .text, .header, .reference{
         font-size: 100%;
     }
     footer{
