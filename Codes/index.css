@@ -210,9 +210,11 @@ button[id="Read_more-btn"]:hover{
     [id="Brief"] h2{
         text-align: center;
     }
+    /*
     h2{
         font-size: 50%;
     }
+    */
     footer{
         font-size: 80%
     }
